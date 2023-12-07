@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Enrollment FORM</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Full Name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Justine James A. Abejuela"><br><br>
+  
+  <label for="lname">Email Address:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="abejuelajustinejames08@gmail.com"><br><br>
+  
+  <label for="dname">Contact no:</label><br>
+  <input type="text" id="dname" name="dname" placeholder="09072393272"><br><br>
+  
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select><br><br>
+  
+  <p>Select a Strand you like</p>
+  <input type="checkbox" id="genre1" name="genre1" value="TVL">
+  <label> for="TVL">TVL</label><br>
+  <input type="checkbox" id="genre2" name="genre2" value="HUMS">
+   <label> for="HUMS"</label><br>
+  <input type="checkbox" id="genre3" name="genre3" value="STEM">
+  <label> for="STEM"</label><br>
+  <input type="checkbox" id="genre4" name="genre4" value="ABM">
+  <label> for="ABM"</label><br>
+  
+  
+  <p>How Satisfied are you with the current version?</p>
+  <input type="radio" id="very unsatisfied" name="Satisfaction" value="Very Unsatisfied">
+  <label for="very unsatisfied">Very Unsatisfied</label><br>
+  <input type="radio" id="unsatisfied" name="Satisfaction" value="Unsatisfied">
+  <label for="unsatisfied">Unsatisfied</label><br>
+  <input type="radio" id="neutral" name="Satisfaction" value="Neutral">
+  <label for="neutral">Neutral</label><br>
+  <input type="radio" id="satisfied" name="Satisfaction" value="Satisfied">
+  <label for="satisfied">Satisfied</label><br>
+  <input type="radio" id="very satisfied" name="Satisfaction" value="Very Satisfied">
+  <label for="very satisfied">Very Satisfied</label><br><br>
+  
+  <label for="birthday">Set Birthday:</label>
+  <input type="date" id="birthday" name="birthday" required><br><br>
+  
+  <input type="text" id="uname" name="uname" placeholder="Emergency Contact Name"><br>
+  
+  <input type="text" id="oname" name="oname" placeholder="Emergency Contact Number"><br><br>
+  
+  <p>Comments</p>
+  <input type="text" id="aname" name="aname" placeholder="Comments"><br><br>
+  
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
